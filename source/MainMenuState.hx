@@ -43,8 +43,8 @@ class MainMenuState extends MusicBeatState
 		'credits',
 		//#if !switch 'donate', #end
 		'options',
-		'youtube',
-		'plushie'
+		//'youtube',
+		//'plushie'
 	];
 
 	var magenta:FlxSprite;
@@ -373,7 +373,7 @@ class MainMenuState extends MusicBeatState
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			//spr.screenCenter(X);
-                          spr.x += -300
+                          spr.x += -300;
 		});
 	}
 
